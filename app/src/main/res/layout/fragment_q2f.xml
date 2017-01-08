@@ -1,0 +1,47 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.myquiz.q2f"
+    android:background="@android:color/transparent">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:id="@+id/tquestion2"/>
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_below="@+id/tquestion2"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/deep"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bcheck2"
+        android:id="@+id/etAnswer2"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:text="confirm"
+        android:id="@+id/bcheck2"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Cheat"
+        android:id="@+id/bcheat2"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        />
+    </RelativeLayout>
+</FrameLayout>

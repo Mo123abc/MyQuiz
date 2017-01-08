@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_leaderboard"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.user.myquiz.Leaderboard">
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Leaderboard"
+     android:textSize="48sp"
+     android:layout_margin="16dp"
+     android:layout_centerHorizontal="true"
+     android:textColor="@color/colorPrimary"
+     android:layout_gravity="center_horizontal"
+     android:id="@+id/tLeaderboard"/>
+ <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:textSize="32sp"
+    android:layout_margin="16dp"
+    android:layout_below="@id/tLeaderboard"
+    android:textColor="@android:color/black"
+    android:id="@+id/tScore"/>
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_centerHorizontal="true"
+     android:textSize="32sp"
+     android:layout_below="@id/tScore"
+     android:layout_margin="16dp"
+     android:textColor="@android:color/black"
+     android:id="@+id/tScore2"/>
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_centerHorizontal="true"
+     android:textSize="32sp"
+     android:layout_margin="16dp"
+     android:layout_below="@id/tScore2"
+     android:textColor="@android:color/black"
+     android:id="@+id/tScore3"/>
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_centerHorizontal="true"
+     android:textSize="32sp"
+     android:layout_margin="16dp"
+     android:layout_below="@id/tScore3"
+     android:textColor="@android:color/black"
+     android:id="@+id/tScore4"/>
+ <Button
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Back"
+     android:id="@+id/bback"
+     android:background="@color/colorPrimary"
+     android:textColor="@android:color/white"
+     android:layout_alignParentBottom="true"/>
+
+
+
+
+
+</RelativeLayout>
